@@ -20,7 +20,7 @@ export default function SuperSearchBar({ onClose }: { onClose: () => void }) {
           type="text"
           autoFocus
           placeholder="Search our data, reports, trends or ask a question..."
-          className="flex-1 p-2 focus:outline-none font-sans font-light"
+          className="flex-1 p-2 placeholder-[#6c6c6c]  focus:outline-none font-sans font-extralight"
         />
         <div className="bg-blue-300 rounded-4xl flex items-center justify-center w-10 h-10 m-2 animate-fadeIn">
           <ArrowIcon />

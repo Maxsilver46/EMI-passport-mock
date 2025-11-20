@@ -11,7 +11,7 @@ export default function SearchBar() {
     <div className="flex  w-[598px] h-14 mt-50 rounded-4xl bg-white border border-gray-300 shadow-sm">
       <MagnifyingGlassIcon className="h-6 w-6 text-gray-600 ml-4 mt-4 inline-block" />
       <div
-        className="flex items-center h-full flex-1 p-2 font-sans font-light text-[#868686] hover:cursor-text"
+        className="flex items-center h-full flex-1 p-2 font-sans font-extralight text-[#6c6c6c] hover:cursor-text"
         onClick={() => setSuperSearch(true)}
       >
         <p>Search our data, reports, trends or ask a question...</p>
